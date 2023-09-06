@@ -1,0 +1,36 @@
+<!-- src/app/header/header.component.html -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" [routerLink]="['/home']">Home</a> <!-- Updated link -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+        </li>
+        <li id="fb">
+          <a href="https://www.facebook.com/profile.php?id=100087838043710" target="_blank"><img src="../../assets/facebook.png" alt="" height="20px">
+          </a>
+        </li>
+        <li id="lin">
+          <a href="https://www.linkedin.com/in/prakarsh-kashyap-a41172268" target="_blank"><img src="../../assets/linkedin.png" alt="" height="20px">
+          </a>
+        </li>
+        <li id="git">
+          <a href="https://github.com/prakarshhh" target="_blank"><img src="../../assets/github.png" alt="" height="20px">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

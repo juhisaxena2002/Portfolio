@@ -1,0 +1,132 @@
+/* src/app/home/home.component.css */
+
+/* Style the entire home section */
+#home {
+    background-color: #1e1e1e;
+    padding: 60px 0;
+  }
+  
+  /* Style the heading in the first section */
+  #home h1 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  #e1 p,#s1 ul li, #t1 ul li,#a1 p
+  {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #764b4b;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the lead paragraph in the first section */
+  #home .lead {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the "Contact Me" button */
+  #home .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Change button color on hover */
+  #home .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the headings in the second section */
+  #home h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the paragraphs in the second section */
+  #home p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the list items in the "My Services" section */
+  #home ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #home li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the blockquote in the "Testimonials" section */
+  #home .blockquote {
+    border-left: 4px solid #007bff;
+    background-color: #fff;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the blockquote text */
+  #home .blockquote p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the blockquote footer (client name) */
+  #home .blockquote-footer {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Style the right side content */
+  #home .right-side-content {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the "My Projects" section */
+  #home .projects {
+    margin-top: 40px;
+  }
+  
+  #home .project-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #home .project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #home .project-description {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Add more custom styles as needed */
+  

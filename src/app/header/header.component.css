@@ -1,0 +1,78 @@
+/* src/app/header/header.component.css */
+
+/* Style the header container */
+header {
+  background-color: #007bff;
+  /* Header background color */
+  color: #fff;
+  /* Text color */
+  padding: 15px 0;
+  /* Add padding to top and bottom */
+}
+
+/* Style the navigation links */
+.navbar a {
+  color: #fff;
+  /* Link text color */
+  text-decoration: none;
+  /* Remove underlines from links */
+  margin-right: 20px;
+  /* Add space between links */
+  font-size: 18px;
+  /* Link font size */
+}
+
+/* Style the navigation links on hover */
+.navbar a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+}
+
+/* Style the navigation toggle button (for mobile) */
+.navbar-toggler-icon {
+  color: #fff;
+  /* Toggle button color */
+}
+
+/* Center the brand/logo on smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand {
+    text-align: center;
+  }
+}
+
+
+/* YourComponent.component.css */
+
+/* Style the dropdown button */
+.dropdown-toggle {
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+}
+
+/* Style the dropdown menu items */
+.dropdown-item {
+  color: #333;
+  /* Item text color */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  /* Item background color on hover */
+}
+
+#fb {
+  padding-top: 6px;
+
+}
+
+#lin {
+  padding-top: 6px;
+
+}
+#git {
+  padding-top: 6px;
+
+}
